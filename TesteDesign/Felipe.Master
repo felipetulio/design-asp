@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Felipe.master.cs" Inherits="TesteDesign.Felipe" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>Design</title>
+
+    <%-- Link de referência para o arq CSS de estilo da página. --%>
+    <link href="~/Style/Felipe.css" rel="Stylesheet" type="text/css" />
+
+    <%-- Bloco do conteúdo do cabeçalho. Receberá o conteúdo de cada cabeçalho que utilizar deste design. --%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+
+<body>
+
+    <%-- Bloco da página inteira. Fica dentro do corpo --%>
+    <div class="page" style="vertical-align: middle">
+        <%-- Bloco do cabeçalho. Tem dois blocos dentro, um em cada lado. --%>               
+        <div class="top">
+            <div class="image">
+                <img alt="" class="imagem" src="robo.jpg" />
+            </div>
+            <div class="block"></div>
+        </div>
+
+        <form id="form1" runat="server">
+
+        <%-- Bloco do menu. Contém labels para os futuros links. --%>
+        <div class="menu">
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx" 
+                 ForeColor="White" >Página Inicial</asp:HyperLink>
+            &nbsp;
+            <asp:Label ID="Label2" runat="server" Text="|" Width="10px" ></asp:Label>
+            <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="White" NavigateUrl="~/WebForm3.aspx">Contatos</asp:HyperLink>
+            &nbsp;
+            <asp:Label ID="Label1" runat="server" Text="|" Width="10px" ></asp:Label >
+            <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" NavigateUrl="~/WebForm2.aspx"> Aviso</asp:HyperLink>
+        </div>
+
+        <%-- Bloco do conteúdo do corpo. Receberá o conteúdo de cada página que utilizar deste design. --%>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        </form>     
+    </div>
+        
+    
+    <%-- Bloco de rodapé --%>          
+    <div class="bottom">
+    </div>
+            
+    
+               
+</body>
+</html>

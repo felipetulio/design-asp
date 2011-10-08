@@ -1,0 +1,69 @@
+﻿body 
+{
+    margin: 20px 20px 20px 20px;
+    background-color: Gray;
+    width: 1200px;
+    height: 600px;
+}
+
+.page
+{
+    margin: 20px 0% 0% 20px;
+    background-color: Teal;
+    width: 1200px;
+    height: 600px;
+    
+}
+    
+.top
+{
+    background-color: Silver;
+    width: 1200px;
+    height:100px; 
+ 
+}
+
+.menu
+{
+    margin: 20px auto 20px auto;
+    background-color: Blue;
+    width: 1200px;
+    height: 50px;
+}
+
+.image
+{    
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.imagem
+ {
+    height: 100px;
+    width: 200px;
+ }
+ 
+.block
+{
+    margin:10px 30px auto auto;
+    background-color: Red;
+    width: 40px;
+    height: 80px;
+    float: right;
+}
+    
+.content
+{
+    margin: auto 10px auto 10px;
+    text-align: justify;
+    }
+    
+.bottom
+{
+    margin: auto auto auto 20px;
+    background-color: White;
+    width: 1200px;
+    height: 20px;
+    
+}

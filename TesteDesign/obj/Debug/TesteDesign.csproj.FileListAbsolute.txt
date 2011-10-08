@@ -1,0 +1,5 @@
+C:\Users\Felipe Tulio\Desktop\TesteDesign\TesteDesign\bin\TesteDesign.dll
+C:\Users\Felipe Tulio\Desktop\TesteDesign\TesteDesign\bin\TesteDesign.pdb
+C:\Users\Felipe Tulio\Desktop\TesteDesign\TesteDesign\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Felipe Tulio\Desktop\TesteDesign\TesteDesign\obj\Debug\TesteDesign.dll
+C:\Users\Felipe Tulio\Desktop\TesteDesign\TesteDesign\obj\Debug\TesteDesign.pdb
