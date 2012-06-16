@@ -1,26 +1,21 @@
 ﻿body 
 {
-    margin: 20px 20px 20px 20px;
     background-color: Gray;
-    width: 1200px;
-    height: 600px;
 }
 
 .page
 {
-    margin: 20px 0% 0% 20px;
+    margin: 0 auto;
     background-color: Teal;
     width: 1200px;
     height: 600px;
-    
 }
     
 .top
 {
     background-color: Silver;
     width: 1200px;
-    height:100px; 
- 
+    height:100px;
 }
 
 .menu
@@ -57,11 +52,11 @@
 {
     margin: auto 10px auto 10px;
     text-align: justify;
-    }
+}
     
 .bottom
 {
-    margin: auto auto auto 20px;
+    margin: 0 auto;
     background-color: White;
     width: 1200px;
     height: 20px;

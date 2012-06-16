@@ -16,10 +16,12 @@
     
 </head>
 
-<body>
-
+    <body>
+        <form id="form1" runat="server">
     <%-- Bloco da página inteira. Fica dentro do corpo --%>
     <div class="page" style="vertical-align: middle">
+    
+
         <%-- Bloco do cabeçalho. Tem dois blocos dentro, um em cada lado. --%>               
         <div class="top">
             <div class="image">
@@ -27,8 +29,6 @@
             </div>
             <div class="block"></div>
         </div>
-
-        <form id="form1" runat="server">
 
         <%-- Bloco do menu. Contém labels para os futuros links. --%>
         <div class="menu">
@@ -47,16 +47,14 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-
-        </form>     
-    </div>
         
-    
+
+    </div>
+
     <%-- Bloco de rodapé --%>          
     <div class="bottom">
     </div>
-            
-    
-               
-</body>
+         
+        </form>     
+    </body>
 </html>
