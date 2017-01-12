@@ -40,6 +40,9 @@
             &nbsp;
             <asp:Label ID="Label1" runat="server" Text="|" Width="10px" ></asp:Label >
             <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" NavigateUrl="~/WebForm2.aspx"> Aviso</asp:HyperLink>
+            &nbsp;
+            <asp:Label ID="Label3" runat="server" Text="|" Width="10px" ></asp:Label >
+            <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" NavigateUrl="~/WebForm2.aspx"> Sobre</asp:HyperLink>
         </div>
 
         <%-- Bloco do conteúdo do corpo. Receberá o conteúdo de cada página que utilizar deste design. --%>
